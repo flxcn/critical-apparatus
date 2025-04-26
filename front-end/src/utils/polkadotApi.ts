@@ -1,0 +1,1 @@
+// Connect to Asset Hub (via polkadot.js or ethers.js if Moonbeam setup)
