@@ -1,1 +1,0 @@
-// Deployment script for EchoChain smart contract
