@@ -1,46 +1,32 @@
-# echochain
- 
-# Ethers.js DApp Example
+# EchoChain dApp
 
-This is a simple example Next.js application that demonstrates how to interact with the Storage smart contract on Westend Asset Hub using the [ethers.js](https://docs.ethers.org/) library.
+This project is a full-stack decentralized application (dApp) built with a React.js frontend and Solidity smart contracts deployed using Hardhat. It allows users to connect their crypto wallet and interact with the EchoChain smart contract, including uploading text to the blockchain.
 
-For a complete walkthrough and detailed explanations on developing ethers.js dApps on Polkadot smart contracts, refer to the [Create a dApp with Ethers.js](https://papermoonio.github.io/polkadot-mkdocs/tutorials/smart-contracts/launch-your-first-project/create-dapp-ethers-js/) tutorial.
+## Project Structure
 
-## Features
-
-- Connect wallet using ethers.js providers
-- Read the current stored number from the contract
-- Store a new number to the contract
-- Display transaction status
-
-## Prerequisites
-
-- Node.js (>= 16.x)
-- npm or yarn
-- A Web3 wallet like MetaMask with Westend Asset Hub network configured. Follow the [Connect to Polkadot Hub](https://papermoonio.github.io/polkadot-mkdocs/develop/smart-contracts/connect-to-asset-hub/) guide for detailed setup instructions.
-
+frontend/ - React.js frontend app  
+hardhat/ - Hardhat project (Solidity contracts, deployment scripts, and testing)
 
 ## Getting Started
 
-### 1. Install dependencies
+Clone the repository:
 
 ```bash
+git clone https://github.com/your-username/echochain.git
+cd echochain
+
+## Install Dependencies
+cd frontend
 npm install
-```
+cd ../hardhat
+npm install
 
-### 2. Run the development server
+## Deploy Smart Contracts
+cd hardhat
+npx hardhat run scripts/deploy.js --network localhost
 
-```bash
-npm run dev
-```
+## Run Frontend
+cd frontend
+npm start
 
-### 3. Open the application
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
-
-## Usage
-
-1. Click the "Connect Wallet" button to connect your Web3 wallet
-2. The current stored number will be displayed automatically
-3. Enter a new number in the input field and click "Update" to update the value
-4. Transaction status will be displayed while the transaction is being processed
+The frontend will be available at http://localhost:3000. Connect your wallet (e.g., MetaMask) and interact with the deployed contract.
