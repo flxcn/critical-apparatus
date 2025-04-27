@@ -5,6 +5,9 @@ This project is a full-stack decentralized application (dApp) built with a React
 ## Project Description
 Preservation of classical texts – ancient Latin, Greek—and its scholarly commentary is typically done centralized. This makes these critical texts and knowledge space fragile and vulnerable to loss or manipulation over time. We’re rebuilding the Library of Alexandria—but fireproof. Our solution is EchoChain, a decentralized archive for classical texts and scholarly commentary. Users can permanently submit, store, and annotate classical works (poetry, philosophy, history) on the blockchain. We integrate the Moonbase Alpha parachain with MetaMask, leveraging Polkadot Asset Hub and Remix to ensure that these cultural and intellectual artifacts are immutable, transparently attributed, and accessible to future generations. 
 
+## Video Link
+[Watch it here!](https://www.youtube.com/watch?v=YBKy3ET83Is)
+
 ## Project Structure
 
 frontend/ - React.js frontend app  
@@ -34,5 +37,5 @@ npm start
 
 The frontend will be available at http://localhost:3000. Connect your wallet (e.g., MetaMask) and interact with the deployed contract.
 
-## Video Link
+
 
