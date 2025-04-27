@@ -14,7 +14,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/your-username/echochain.git
 cd echochain
-
+```
 ## Install Dependencies
 cd frontend
 npm install
